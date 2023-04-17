@@ -48,11 +48,11 @@ jobs:
         working-directory: loconotion
 
       - name: Deploy to Pages
-        uses: JamesIves/github-pages-deploy-action@3.7.1
+        uses: JamesIves/github-pages-deploy-action@4.1.7
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: pages_repo/dist/notion
+          FOLDER: loconotion/dist
           CLEAN: true
           SINGLE_COMMIT: true
 
