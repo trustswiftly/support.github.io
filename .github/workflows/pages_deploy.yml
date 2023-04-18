@@ -52,7 +52,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: loconotion/dist
+          FOLDER: pages_repo/dist:/app/loconotion/dist
           CLEAN: true
           SINGLE_COMMIT: true
 
